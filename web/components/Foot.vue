@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" style="bottom: 0; position: absolute">
+  <footer class="footer">
     <div class="content">
       <p>
         <strong>AI But How You Like That?</strong> by

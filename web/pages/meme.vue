@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Searchbox />
-    <Result />
+    <Nav />
+    <Meme />
     <Foot />
   </div>
 </template>
