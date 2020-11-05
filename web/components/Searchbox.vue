@@ -19,7 +19,7 @@
         <div class="section">
           <div class="column">
             <h1 class="is-size-3">Upload meme photo</h1>
-            <button class="button my-3 is-danger is-large" @click="">+ Upload photo</button>
+            <button class="button my-3 is-danger is-large" @click="('this is test')">+ Upload photo</button>
             <p class="is-size-4">Find out its name</p>
           </div>
         </div>

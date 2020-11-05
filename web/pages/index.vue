@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nav />
     <Searchbox />
     <Result />
     <Foot />
