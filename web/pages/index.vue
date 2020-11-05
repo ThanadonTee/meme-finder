@@ -1,6 +1,7 @@
 <template>
   <div>
     <Nav />
+    <HeaderSection />
     <Searchbox />
     <Result />
     <Foot />
@@ -9,6 +10,59 @@
 
 <script lang="ts">
 import Vue from 'vue'
-
-export default Vue.extend({})
+export default Vue.extend({
+})
 </script>
+<style>
+/* .container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+/* .headerArea{
+
+}
+.resultArea{
+
+} */
+.headerLogo{
+  width: 200px;
+  height: 200px;
+  margin-left: 42%;
+}
+
+.navLogo{
+  height: 200px;
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+.content{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.red{
+  color : #A0432E;
+}
+.yellow{
+  color: #B68F43;
+}
+.ashGreen{
+  background-color : #9DAF9F;
+}
+.navy{
+  color : #3C4D59;
+}
+.almostBlack{
+  color: #191323;
+}
+</style>

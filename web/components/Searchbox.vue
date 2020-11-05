@@ -2,18 +2,18 @@
 
 <template>
   <div>
-    <section class="hero is-danger has-text-centered">
+    <!-- <section class="hero is-danger has-text-centered">
       <div class="hero-body">
         <div class="container">
           <h1 style="font-size: 6em">
-            <span class="has-text-weight-semibold">Find Your</span><br><span class="has-text-weight-bold">M e m e </span>
+            <span class="header">FIND YOUR MEME</span>
           </h1>
-          <h2 class="subtitle is-size-4">
+          <h2 class="title">
             No more meme that only exists in your memory
           </h2>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="section has-text-centered">
       <div class="container">
         <div class="section">

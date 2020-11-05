@@ -1,0 +1,34 @@
+<template>
+  <div>
+    <section class="hero is-danger has-text-centered">
+      <div class="hero-body is-vcentered">
+        <div class="container">
+            <div class="headerLogo">
+              <img src="../assets/images/logo.svg" />
+            </div>
+          <h1 style="font-size: 5em">
+            <span class="header">FIND YOUR MEME</span>
+          </h1>
+          <h2 class="title">No more meme that only exists in your memory</h2>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+export default {
+  loading: false,
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white',
+  },
+  $upload() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 2000)
+    })
+  },
+}
+</script>

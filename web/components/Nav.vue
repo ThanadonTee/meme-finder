@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-primary is-full-height" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="../assets/images/fullnamelogo.png" />
+        <img class="navLogo" src="../assets/images/fullnamelogo.svg" />
       </a>
     </div>
 
