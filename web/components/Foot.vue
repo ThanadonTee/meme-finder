@@ -7,7 +7,9 @@
         <a href="#">Chantisa S</a>. and <a href="#">Supapatr W</a>.
       </p>
       <p>
-        <strong>P l e a s e &nbsp; g i ve &nbsp; u s &nbsp; A &nbsp; o w o.</strong>
+        <strong
+          >P l e a s e &nbsp; g i ve &nbsp; u s &nbsp; A &nbsp; o w o.</strong
+        >
       </p>
     </div>
   </footer>
