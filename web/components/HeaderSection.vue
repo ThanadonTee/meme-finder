@@ -1,11 +1,11 @@
 <template>
   <div>
-    <section class="hero is-danger has-text-centered">
+    <section class="hero has-text-centered">
       <div class="hero-body is-vcentered">
         <div class="container">
-            <div class="headerLogo">
-              <img src="../assets/images/logo.svg" />
-            </div>
+          <div class="headerLogo">
+            <img src="../assets/images/logo.svg" />
+          </div>
           <h1 style="font-size: 5em">
             <span class="header">FIND YOUR MEME</span>
           </h1>

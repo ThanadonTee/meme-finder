@@ -31,8 +31,9 @@ export default {
     },
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap'
-    }
+      href:
+        'https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap',
+    },
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

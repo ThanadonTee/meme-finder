@@ -10,8 +10,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({
-})
+export default Vue.extend({})
 </script>
 <style>
 /* .container {
@@ -28,41 +27,42 @@ export default Vue.extend({
 .resultArea{
 
 } */
-.headerLogo{
+
+.headerLogo {
   width: 200px;
   height: 200px;
   margin-left: 42%;
 }
 
-.navLogo{
+.navLogo {
   height: 200px;
 }
 
-.header{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
+.header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
 }
-.title{
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
-.content{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
-.red{
-  color : #A0432E;
+.red {
+  color: #a0432e;
 }
-.yellow{
-  color: #B68F43;
+.yellow {
+  color: #b68f43;
 }
-.ashGreen{
-  background-color : #9DAF9F;
+.ashGreen {
+  background-color: #9daf9f;
 }
-.navy{
-  color : #3C4D59;
+.navy {
+  color: #3c4d59;
 }
-.almostBlack{
+.almostBlack {
   color: #191323;
 }
 </style>
