@@ -34,6 +34,13 @@ export default {
       href:
         'https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap',
     },
+    {
+      script: [
+        {
+          src: '~/assets/mockdata.js'
+        }
+      ],
+    }
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
