@@ -8,7 +8,7 @@
       <a class="navbar-item" href="/">
         <img
           class="navLogo"
-          src="../assets/images/fullnamelogo.svg"
+          src="~/assets/images/fullnamelogo.svg"
           alt="fullnamelogo"
         />
       </a>
