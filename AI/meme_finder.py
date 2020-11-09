@@ -8,6 +8,19 @@ class_names = ['0', '1', '11', '12', '13', '14', '15', '18', '19', '2', '20', '2
 
 reconstructed_model = tf.keras.models.load_model('./model.h5')
 
+def Sort_Tuple(tup):  
+      
+    # getting length of list of tuples 
+    lst = len(tup)  
+    for i in range(0, lst):  
+          
+        for j in range(0, lst-i-1):  
+            if (tup[j][1] > tup[j + 1][1]):  
+                temp = tup[j]  
+                tup[j]= tup[j + 1]  
+                tup[j + 1]= temp  
+    return tup  
+
 img = keras.preprocessing.image.load_img(
     'uploads/'+argv[1], target_size=(256, 256)
 )
@@ -15,9 +28,7 @@ img_array = keras.preprocessing.image.img_to_array(img)
 img_array = tf.expand_dims(img_array, 0) # Create a batch
 
 predictions = reconstructed_model.predict(img_array)
-score = tf.nn.softmax(predictions[0])
-stdout.flush()
-print(
-    "{}-{:.2f}"
-    .format(class_names[np.argmax(score)], 100 * np.max(score))
-)
+tup_arr = []
+for x in range(0,len(predictions[0])):
+    tup_arr.append((class_names[x],predictions[0][x]))
+print(Sort_Tuple(tup_arr));
