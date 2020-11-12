@@ -1,55 +1,16 @@
 <template>
-  <section class="section">
-    <div class="columns">
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-      <div class="column is-4">
-        <a :href="'/meme'">
-          <img src="../assets/images/cat.jpg" />
-        </a>
-      </div>
-    </div>
-  </section>
+  <div class="column is-one-third checkerpattern" v-bind="meme">
+    <a :href="'/'+meme.id">
+      <img :src="meme.base_img" />
+    </a>
+  </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  props: [
+    "meme"
+  ]
+})
+</script>

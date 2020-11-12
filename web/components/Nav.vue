@@ -21,3 +21,9 @@
     </div> -->
   </nav>
 </template>
+
+<style>
+.navLogo{
+  height: 200px;
+}
+</style>

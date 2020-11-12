@@ -3,7 +3,6 @@
     <Nav />
     <HeaderSection />
     <Searchbox />
-    <Result />
     <Foot />
   </div>
 </template>
@@ -34,9 +33,6 @@ export default Vue.extend({})
   margin-left: 42%;
 }
 
-.navLogo {
-  height: 200px;
-}
 
 .header {
   font-family: 'Oswald', sans-serif;
