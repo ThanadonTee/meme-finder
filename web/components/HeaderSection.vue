@@ -3,8 +3,8 @@
     <section class="hero has-text-centered">
       <div class="hero-body is-vcentered">
         <div class="container">
-          <div class="headerLogo">
-            <img src="../assets/images/logo.svg" />
+          <div class="column is-centered">
+            <img src="../assets/images/logo.svg" width="150px" />
           </div>
           <h1 style="font-size: 5em">
             <span class="header">FIND YOUR MEME</span>

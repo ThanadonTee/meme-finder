@@ -27,6 +27,9 @@ export default Vue.extend({})
 .resultArea{
 
 } */
+.boxSize {
+  width: 500px;
+}
 
 .headerLogo {
   width: 200px;
@@ -43,8 +46,9 @@ export default Vue.extend({})
 .submitButton {
   background-color: #b68f43;
   color: #ffffff;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  border: transparent;
+  height: 40px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
