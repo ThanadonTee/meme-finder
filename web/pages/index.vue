@@ -34,6 +34,21 @@ export default Vue.extend({})
   margin-left: 42%;
 }
 
+.yellowButton {
+  background-color: #b68f43;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.submitButton {
+  background-color: #b68f43;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
 .navLogo {
   height: 200px;
 }
