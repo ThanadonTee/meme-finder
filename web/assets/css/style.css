@@ -1,0 +1,66 @@
+.boxSize {
+  width: 500px;
+}
+
+.imgResult {
+  margin-left: 2.5%;
+}
+.textResult {
+  margin-left: 18%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+.headerLogo {
+  width: 200px;
+  height: 200px;
+  margin-left: 42%;
+}
+
+.yellowButton {
+  background-color: #b68f43;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.submitButton {
+  background-color: #b68f43;
+  color: #ffffff;
+  width: 40px;
+  border: transparent;
+  height: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.navLogo {
+  height: 200px;
+}
+
+.header {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.red {
+  color: #a0432e;
+}
+.yellow {
+  color: #b68f43;
+}
+.ashGreen {
+  background-color: #9daf9f;
+}
+.navy {
+  color: #3c4d59;
+}
+.almostBlack {
+  color: #191323;
+}
