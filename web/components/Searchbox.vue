@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section has-text-centered is-mobile">
+    <section class="section has-text-centered">
       <div class="container">
         <div class="section">
           <div class="columns">
@@ -46,11 +46,29 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="columns is-multiline">
+        <Result :meme="meme" v-for="meme in memes" :key="meme.id" />
+      </div>
+    </section>
   </div>
 </template>
 
+<style>
+.checkerpattern:nth-child(odd) {
+  background-color: #ececec;
+}
+
+img.checkerpattern {
+  object-fit: cover;
+}
+</style>
+
 <script>
+import Result from './Result.vue'
 export default {
+  components: { Result },
   loading: false,
   loadingIndicator: {
     name: 'circle',
@@ -70,12 +88,18 @@ export default {
       this.$axios
         .$post('http://lvh.me:3001/api/ai/upload', fd)
         .then((res) => {
-          // TODO show data
+          console.log(res.output)
+          this.memes = res.output.reverse()
         })
         .catch((err) => {
           throw new Error(err)
         })
     },
+  },
+  data() {
+    return {
+      memes: null,
+    }
   },
 }
 </script>
