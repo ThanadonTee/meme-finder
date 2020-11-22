@@ -31,6 +31,15 @@ export default Vue.extend({})
   width: 500px;
 }
 
+.imgResult {
+  margin-left: 2.5%;
+}
+.textResult {
+  margin-left: 18%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: black;
+}
 .headerLogo {
   width: 200px;
   height: 200px;
