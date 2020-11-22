@@ -1,6 +1,7 @@
 <template>
   <div>
     <Nav />
+    <Searchbox />
     <MemeHead />
     <MemeList />
     <Foot />

@@ -12,10 +12,10 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ['~/assets/css/style.css'],
 
   env: {
-    SERVER_URL: process.env.SERVER_URL || 'http://localhost:3001'
+    SERVER_URL: process.env.SERVER_URL || 'http://localhost:3001',
   },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -43,10 +43,10 @@ export default {
     {
       script: [
         {
-          src: '~/assets/mockdata.js'
-        }
+          src: '~/assets/mockdata.js',
+        },
       ],
-    }
+    },
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -70,6 +70,4 @@ export default {
       },
     },
   },
-
-
 }
