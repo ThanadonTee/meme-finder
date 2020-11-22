@@ -33,7 +33,6 @@ export default Vue.extend({})
   margin-left: 42%;
 }
 
-
 .header {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;

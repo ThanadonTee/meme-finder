@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar is-primary is-full-height"
+    class="navbar ashGreen is-full-height"
     role="navigation"
     aria-label="main navigation"
   >

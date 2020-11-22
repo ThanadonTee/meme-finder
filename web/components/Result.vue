@@ -1,6 +1,6 @@
 <template>
   <div class="column is-one-third checkerpattern" v-bind="meme">
-    <a :href="'/'+meme.id">
+    <a :href="'/' + meme.id">
       <img :src="meme.base_img" />
     </a>
   </div>
@@ -9,8 +9,6 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-  props: [
-    "meme"
-  ]
+  props: ['meme'],
 })
 </script>
