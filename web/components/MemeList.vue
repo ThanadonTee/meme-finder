@@ -8,8 +8,7 @@
           </div>
           <div class="column">
             <h1 class="is-size-4">Polite cat variation</h1>
-            <h1 class="is-size-5">Still cute eh</h1>
-            <div class="content">
+            <div class="content textContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 ornare magna eros, eu pellentesque tortor vestibulum ut.
