@@ -1,6 +1,8 @@
 import {
+  Body,
   Controller,
   Get,
+  Param,
   Post,
   UploadedFile,
   UseInterceptors,
@@ -16,5 +18,14 @@ export class AppController {
   @UseInterceptors(FileInterceptor('file'))
   postImage(@UploadedFile() file): Record<string, unknown> {
     return this.appService.postImage(file);
+  }
+
+  @Post('/api/ai/search')
+  postSearch(@Body('search') query: string): Record<string, unknown> {
+    return this.appService.postSearch(query);
+  }
+  @Get('/api/meme/:id')
+  getId(@Param('id') id: string): Record<string, unknown> {
+    return this.appService.getId(id);
   }
 }

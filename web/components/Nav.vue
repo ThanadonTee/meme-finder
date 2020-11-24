@@ -23,7 +23,7 @@
 </template>
 
 <style>
-.navLogo{
+.navLogo {
   height: 200px;
 }
 </style>
