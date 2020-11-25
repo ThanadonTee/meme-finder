@@ -1,6 +1,10 @@
 require('dotenv').config()
 export default {
   target: 'server',
+  server: {
+    port: 3000,
+    host: '0.0.0.0',
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Find you meme',
