@@ -27,7 +27,8 @@ export class AppService {
   }
   postImage(file): Record<string, unknown> {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const MEME = require('../AI/memes.json');
+    let MEME = require('../AI/memes.json');
+    MEME = Object.freeze(MEME);
     const filename = Date.now() + file.originalname;
     writeFileSync('./AI/uploads/' + filename, file.buffer);
     let result = execSync('./AI/env/bin/python3 AI/meme_finder.py ' + filename);
@@ -37,8 +38,8 @@ export class AppService {
     const top9 = result.slice(result.length - 9, result.length);
     const output = [];
     top9.forEach(el => {
-      const found = MEME.find(x => x.id == el[0]);
-      delete found.generated_memes;
+      let found = MEME.find(x => x.id == el[0]);
+      found = Reflect.deleteProperty(found, 'prop');
       output.push(found);
     });
 
